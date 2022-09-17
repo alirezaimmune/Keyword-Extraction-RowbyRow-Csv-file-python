@@ -1,11 +1,8 @@
-
-from doctest import OutputChecker
 import streamlit as st
 import pandas as pd
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-
 
 st.set_page_config(page_title='The Keyword Extraction App',
     layout='wide')
