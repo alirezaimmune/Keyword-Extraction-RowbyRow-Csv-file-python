@@ -3,7 +3,7 @@ import pandas as pd
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-nltk.download('stopwords')
+
 st.set_page_config(page_title='The Keyword Extraction App',
     layout='wide')
 
