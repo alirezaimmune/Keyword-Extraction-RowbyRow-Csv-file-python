@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 
-
+python -m pip install --upgrade pip
 
 st.set_page_config(page_title='The Keyword Extraction App',
     layout='wide')
